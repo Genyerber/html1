@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GEDAXX STYLE-2</title>
+</head>
+<body>
+    <header>
+        <h1>Gedaxx Style-2</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+   
+    <table border="1"> <!-- Agrega un borde para visualización -->
+        <thead>
+            <tr>
+                <th>Medidas</th>
+                <th>S</th>
+                <th>M</th>
+                <th>L</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Altura (cm)</td>
+                <td>72</td>
+                <td>72</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Anchura(cm)</td>
+                <td>53</td>
+                <td>56</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Hombro a hombro(cm)1</td>
+                <td>44.6</td>
+                <td>46</td>
+                <td>47.4</td>
+            </tr>
+            <tr>
+                <td>Largo de manga(cm)</td>
+                <td>67.6</td>
+                <td>68</td>
+                <td>68.4</td>
+            </tr>
+            <tr>
+                <td>Cintura</td>
+                <td>60</td>
+                <td>65</td>
+                <td>67</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><h4>Dentro de los tipos de telas que comúnmente se utilizan en sublimación textil podemos encontrar: </h4></p>
+     <ol>
+        <li>Acetato</li>
+        <li>Acrocel</li>
+        <li>Arciel</li>
+        <li>Black Out</li>
+        <li>Bondeado</li>
+        <li>Chenille</li>
+        <li>Cordura</li>
+        <li>Deportivo Frisado</li>
+        <li>Dry Fit</li>
+        <li>Frisa Invisible
+           
+            <p><h4>Nos destacamos por: </h4></p>
+            <ul>
+                <li>Calidad</li>
+                <li>Excelentes precios</li>
+                <li>Envios contraentrega</li>
+            </ul>
+        </li>
+    </ol>
+     <h1>Formulario de Contacto</h1>
+    
+     <form action="procesar.php" method="post">
+        <!-- Campos del formulario -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <!-- Select -->
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="usa">Estados Unidos</option>
+            <option value="canada">Canadá</option>
+            <option value="mexico">México</option>
+            <option value="otros">Otros</option>
+        </select><br>
+
+        <!-- Radio Buttons -->
+        <label>Género:</label><br>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br>
+
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+    </form>
+    <footer>
+        <p>G E D A X X   -  S T Y L E &copy; 2023</p>
+    </footer>
+    <button><a href="index.html">HOME</a></button>
+</body>
+</html>
